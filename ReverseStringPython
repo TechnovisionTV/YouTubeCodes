@@ -1,0 +1,7 @@
+def reverse(string):
+    reverse_string = "" # initialising a variable for the reversed string
+    for i in range(len(string) - 1, -1, -1): # using a reversed for loop
+        reverse_string += string[i] #adding the letter in the index i to the variable
+    return reverse_string # returns the reversed string
+
+print(reverse("Hello"))
