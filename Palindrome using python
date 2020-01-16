@@ -1,0 +1,11 @@
+def check_palidrome(txt):
+    txt2 = ''
+    for i in reversed(str(txt)):
+        txt2 += str(i)
+    if txt == txt2:
+        return True
+    else:
+        return False
+
+
+print(check_palidrome("bob"))
